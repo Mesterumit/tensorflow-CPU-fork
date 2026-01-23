@@ -1,9 +1,9 @@
-# Containerized TensorFlow CPU development environment
+# Containerized TensorFlow CPU only development environment
 
 A containerized TensorFlow AI/ML development environment for CPU-only systems. This repository provides a consistent development environment using VS Code Dev Containers, eliminating the need for manual environment setup. It provides the following:
 
 - Python 3.10
-- TensorFlow 2.16 (CPU)
+- TensorFlow 2.16 (CPU only)
 - Keras 3.3
 - NumPy 1.24
 - Pandas 2.2
@@ -12,7 +12,7 @@ A containerized TensorFlow AI/ML development environment for CPU-only systems. T
 - Matplotlib 3.10
 - JupyterLab 2.3
 
-This container is ideal for users without NVIDIA GPUs, including MacOS users, or anyone who wants a lightweight TensorFlow environment for learning, prototyping, or CPU-based inference.
+This container is ideal for users without NVIDIA GPUs, including MacOS users, or anyone who wants a lightweight TensorFlow environment for learning, prototyping, or CPU-based inference. If your system has a Pascale or newer NVIDIA GPU, you probably want [gperdrizet/tensorflow-GPU](https://github.com/gperdrizet/tensorflow-GPU#).
 
 ## 1. Prerequisites
 
